@@ -9,12 +9,11 @@ const AddProduct = ({ onAdd }) => {
   const [description, setDescription] = useState("");
   const [availablein, setAvailablein] = useState("");
   const [imageuri, setImageuri] = useState("");
-  const [image, setImage] = useState("");
+  const [image, setImage] = useState(null);
 
   const onChangeFile = (e) => {
     setImageuri(uri+"/"+e.target.files[0].name);
     setImage(e.target.files[0]);
-    console.log(e.target.files[0].name);
   };
 
   const uploadHandler = () => {
