@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 
 const AddProduct = ({ onAdd }) => {
-  const uri = "https://demo-product-backend.herokuapp.com";
+  const uri = "https://master--meek-kashata-56d554.netlify.app/";
     //  const uri = "http://localhost:5000";
   const [productname, setProductname] = useState("");
   const [categories, setCategories] = useState("");
