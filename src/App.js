@@ -8,7 +8,7 @@ import axios from "axios";
 function App() {
   const [showAddTask, setShowAddtask] = useState(false);
   const [products, setProducts] = useState([]);
-  const uri = "https://demo-product-backend.onrender.com/product";
+  const uri = "https://demo-product-backend.onrender.com";
   // const uri = "http://localhost:5000";
 
   useEffect(() => {
